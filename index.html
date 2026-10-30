@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Redirecionando...</title>
+    
+    <style>
+        @media (prefers-color-scheme: dark) {
+            html, body {
+                background-color: #2b2b2d;
+            }
+        }
+
+        html, body {
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+
+    <script>
+        (function () {
+            let idiomaDestino = null;
+
+            try {
+                const idiomaSalvo = localStorage.getItem('user-language');
+                if (idiomaSalvo === 'pt' || idiomaSalvo === 'en') {
+                    idiomaDestino = idiomaSalvo;
+                }
+            } catch (e) {}
+
+            if (!idiomaDestino) {
+                const idiomas = navigator.languages || [navigator.language || navigator.userLanguage || 'en'];
+
+                for (let i = 0; i < idiomas.length; i++) {
+                    const idioma = String(idiomas[i]).toLowerCase();
+                    if (idioma.startsWith('pt')) {
+                        idiomaDestino = 'pt';
+                        break;
+                    } else if (idioma.startsWith('en')) {
+                        idiomaDestino = 'en';
+                        break;
+                    }
+                }
+            }
+
+            if (!idiomaDestino) {
+                idiomaDestino = 'en';
+            }
+
+            window.location.replace(`./${idiomaDestino}`);
+        })();
+    </script>
+</head>
+<body></body>
+</html>

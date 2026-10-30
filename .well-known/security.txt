@@ -1,0 +1,4 @@
+Contact: mailto:souza.joaomartinho@gmail.com
+Encryption: https://jmartinhosouza.github.io/jms.asc
+Preferred-Languages: pt, en
+Canonical: https://jmartinhosouza.github.io/.well-known/security.txt
