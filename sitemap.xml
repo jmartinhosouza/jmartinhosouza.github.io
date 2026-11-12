@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+    <url>
+        <loc>https://jmartinhosouza.github.io/pt/</loc>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://jmartinhosouza.github.io/pt/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jmartinhosouza.github.io/en/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://jmartinhosouza.github.io/"/>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://jmartinhosouza.github.io/en/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jmartinhosouza.github.io/en/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://jmartinhosouza.github.io/pt/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://jmartinhosouza.github.io/"/>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://jmartinhosouza.github.io/pt/favoritos.html</loc>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://jmartinhosouza.github.io/pt/favoritos.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jmartinhosouza.github.io/en/favorites.html"/>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://jmartinhosouza.github.io/en/favorites.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jmartinhosouza.github.io/en/favorites.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://jmartinhosouza.github.io/pt/favoritos.html"/>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://jmartinhosouza.github.io/pt/piadas.html</loc>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://jmartinhosouza.github.io/pt/piadas.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jmartinhosouza.github.io/en/jokes.html"/>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://jmartinhosouza.github.io/en/jokes.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jmartinhosouza.github.io/en/jokes.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://jmartinhosouza.github.io/pt/piadas.html"/>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://jmartinhosouza.github.io/pt/sonetos.html</loc>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://jmartinhosouza.github.io/pt/sonetos.html"/>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://jmartinhosouza.github.io/pgp.html</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+</urlset>
